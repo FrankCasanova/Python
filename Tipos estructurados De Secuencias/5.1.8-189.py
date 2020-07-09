@@ -1,4 +1,4 @@
-# prgrama de encriptacion
+# programa para desencriptar
 
 frase = input('Escriba la frase que desea encriptar: ').lower()
 abc = 'abcdefghijklmnñopqrstuvwxyz'
@@ -11,11 +11,11 @@ for i in frase:
 
         try:
 
-            crip += abc[(abc.index(i) + k)]
+            crip += abc[(abc.index(i) - k)]
 
         except IndexError:
 
-            crip += abc[k - (abc.index(i))]
+            crip += abc[k + (abc.index(i))]
 
     else:
         crip += i
