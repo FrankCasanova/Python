@@ -1,13 +1,13 @@
-#programa que indique si un número es el doble de un número impar
+# programa que indique si un número es el doble de un número impar
 
-num = int(input('Introduzca número: '))
+num = 45  # int(input('Introduzca número: '))
 
-mitad = num / 2
 
-if (mitad % 2) != 0:
+if calc:
+    =  (num / 2) % 2 != 0:
 
-    print('{0} es el doble de un número impar, el cual es {1}.'.format(num, mitad))
+    print(f'{num} es el doble de un número impar, el cual es {mitad}.')
 
 else:
 
-    print('{0} no es el doble de un número impar, el cual es {1}.'.format(num, mitad))    
+    print(f'{num} no es el doble de un número impar, el cual es {mitad}.')
