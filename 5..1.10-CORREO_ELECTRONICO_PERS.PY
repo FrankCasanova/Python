@@ -22,7 +22,7 @@ while seguir == 's':
     apellido = 'Casanova'  # input('Apellido: ')
     euros = '2'  # input('Deuda (en euros): ')
 
-    mensaje = 'From: {0}\nTo: {1}\n\n'.format(remitente, destinatario)
+    mensaje = f'From: {remitente}\nTo: {destinatario}\n\n'
 
     personalizado = ''
 
