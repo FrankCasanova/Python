@@ -3,11 +3,10 @@
 num = 45  # int(input('Introduzca número: '))
 
 
-if calc:
-    =  (num / 2) % 2 != 0:
+if calc :=  (num / 2) % 2 != 0:
 
-    print(f'{num} es el doble de un número impar, el cual es {mitad}.')
+    print(f'{num} es el doble de un número impar, el cual es {calc}.')
 
 else:
 
-    print(f'{num} no es el doble de un número impar, el cual es {mitad}.')
+    print(f'{num} no es el doble de un número impar, el cual es {calc}.')
