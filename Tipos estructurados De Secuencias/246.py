@@ -3,8 +3,10 @@
 
 import numpy as np
 
-matriz = np.array([[4, 4, 2, 4, 5, 3], [5, 9, 4, 5, 6, 2],
-                   [9, 1, 3, 1, 1, 7]], dtype=int)
+matriz = np.array(
+    [[4, 4, 2, 4, 5, 3],
+     [5, 9, 4, 5, 6, 2],
+     [13, 1, 3, 1, 1, 7]], dtype=int)
 
 algunas = False
 
