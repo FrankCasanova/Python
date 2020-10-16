@@ -32,9 +32,16 @@
 
 # print(f'{name} es mayor de edad? {name} tiene {age}, por lo que {is_adult(age)} es mayor de edad. ')
 
-string = 'hola que pasa'
+# def is_perfect(n):
 
-string.l
-
-
-print(letters[4])
+#     plus = 0
+#     #test all number betwen 1 to n, for know which number are divisors of n
+#     for i in range(1, n):
+#         if n % i == 0:
+#             plus += i
+#     #now we compare the sum of all divisors for know if n is a perfect number or not
+#     # if plus == n:
+#     #     return True
+#     # else:
+#     #     return False
+#     return plus == n

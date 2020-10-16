@@ -10,15 +10,16 @@ def is_repetition(x):
         if outcase:
             break
 
-        if i == 0:
+        if i == 0:  # ignoring the first step
             continue
-        if len(x) % i != 0:
+        if len(x) % i != 0:   # test if the string is pair
             continue
 
         if len(x) % i == 0:
 
-            for j in range(0, i + 1):
+            for j in range(0, i + 1):  # this indicates which number should be multiplied by
 
+                # and this test that the string isn't longer than original string
                 if len(x[:i]*j) <= len(x):
 
                     if x[:i] * j == x:
