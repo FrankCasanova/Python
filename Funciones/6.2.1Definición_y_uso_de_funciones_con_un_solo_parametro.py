@@ -45,3 +45,25 @@
 #     # else:
 #     #     return False
 #     return plus == n
+
+
+# import numpy as np
+
+
+# def pluses(aList):
+
+#     adds = np.sum(aList)
+
+#     return adds
+
+
+# lista = [1, 2, 3]
+
+# print(pluses(lista))
+
+def maximus(aList):
+
+    candidate = aList[0]
+    for element in aList:
+        if element > candidate:
+            candidate = element
