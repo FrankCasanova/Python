@@ -59,7 +59,7 @@ def winnerEcahStage(lcyclists, ltimes):
             timeStage = np.array(ltimes[j, :], dtype=float)
 
             if winner in timeStage:
-                print(f'el ganador de la ronda {i} fue {o}')
+                print(f'el ganador de la ronda {i+1} fue {o}')
 
 
 cyclists = ['Pere Porcar', 'Joan Beltran', 'Lledó Fabra']
