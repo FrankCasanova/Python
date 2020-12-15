@@ -20,19 +20,24 @@
 # output_file.close()
 
 
-input_name = 'Bio.txt'
-output_name = 'code_bio.txt'
+# input_name = 'Bio.txt'
+# output_name = 'code_bio.txt'
 
-with open(input_name, 'r') as input_file, open(output_name, 'w') as output_file:
+# with open(input_name, 'r') as input_file, open(output_name, 'w') as output_file:
 
-    for line in input_file:
-        new_line = ''
-        for character in line:
-            if character >= 'a' and character <= 'y':
-                code_line = chr(ord(character)+1)
-            elif character == 'z':
-                code_line = 'a'
-            else:
-                code_line = character
-                new_line += code_line
-                output_file.write(new_line)
+#     for line in input_file:
+#         new_line = ''
+#         for character in line:
+#             if character >= 'a' and character <= 'y':
+#                 code_line = chr(ord(character)+1)
+#             elif character == 'z':
+#                 code_line = 'a'
+#             else:
+#                 code_line = character
+#             new_line += code_line
+#         output_file.write(new_line)
+
+
+with open('table.txt', 'w') as file:
+    for i in range(1, 5001):
+        file.write(str(i) + ' ' + str(i**2) + '\n')
